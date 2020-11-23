@@ -1,0 +1,15 @@
+[package]
+name = "the_labyrinth"
+version = "0.1.0"
+authors = ["Rodolphe Desruelles"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "the_labyrinth"
+path = "src/engine.rs"
+
+[dependencies]
+rand = "0.7"
+itertools = "0.9"
